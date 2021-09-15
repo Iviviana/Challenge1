@@ -1,4 +1,4 @@
-/* If not assgined an attribute then */
+/* If not assgined an element/id/class then */
 
 * {
     box-sizing: border-box;
@@ -53,17 +53,15 @@ Redundant information
     margin-left: 25px;
 }
 
-/* For a elements */
+/* For "a" elements */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
-/* 
-Moved information to the * tag
 p {
     font-size: 16px;
-}*/
+}
 
 /* For the hero class */
 .hero {
@@ -103,7 +101,7 @@ p {
     color: #ffffff;
 }
 
-/* Grouped together
+/* Grouped together above
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -125,7 +123,7 @@ p {
     max-height: 200px;
 }
 
-/* Grouped together
+/* Grouped together above
 .online-reputation-management img {
     max-height: 200px;
 }
@@ -138,7 +136,7 @@ p {
     font-size: 36px;
 }
 
-/* Grouped together
+/* Grouped together above
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -167,7 +165,7 @@ p {
     color: #ffffff;
 }
 
-/* This is unnecessary they can be grouped together
+/* This is unnecessary they can be grouped together as above
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
@@ -183,7 +181,7 @@ p {
     text-align: center;
 }
 
-/* grouped together
+/* grouped together above
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -199,7 +197,7 @@ p {
     max-width: 150px;
 }
 
-/* Group together
+/* Grouped together above
 .benefit-brand img {
     display: block;
     margin: 10px auto;
